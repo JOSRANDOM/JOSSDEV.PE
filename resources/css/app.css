@@ -1,3 +1,270 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.t3-footer{
+    background: #000000;
+    color: #999;
+}
+
+.wrap{
+    width: auto;
+    clear: both;
+}
+
+.t3-footnav{
+    padding: 60px 0;
+}
+
+.t3-footnav .t3-module{
+    color: #555555;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.t3-module{
+    margin-top: 36px;
+}
+
+.t3-module{
+    background: transparent;
+    color: inherit;
+    margin-bottom: 18px;
+}
+
+.t3-module .module.inner{
+    padding: 0;
+}
+
+.module-ct{
+    background: transparent;
+    color: inherit;
+    padding: 0;
+}
+
+.footer-about{
+    margin-top: -15px;
+}
+
+.footer-about img{
+    padding-bottom: 5px;
+}
+
+img{
+    max-width: 100%;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.small-logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+.t3-footnav .t3.module ul{
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footer-about .footer-social{
+    margin-top: 20px;
+}
+
+ul, ol{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.footer-about .footer-social li a i{
+    width: 25px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 3px;
+}
+
+.t3-footnav .t3-module ul > li > a{
+    color: #555555;
+}
+
+.footer-about .footer-social li a{
+    text-align: center;
+    padding: 7px 5px;
+    font-size: 16px;
+    border-radius: 100%;
+    background: #333;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a{
+    color: #d32931;
+    outline: 0;
+}
+
+a{
+    color: #428bca;
+    text-decoration: none;
+}
+
+.t3-footnav .t3-module ul > li{
+    line-height: 24px;
+}
+
+.footer-about .footer-social li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li, ol li{
+    list-style: none;
+}
+
+.t3-footnav .t3-module .module-title{
+    text-align: center;
+    color: #555555;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.module-title{
+    margin-bottom: 18px;
+}
+
+.module-title{
+    background: transparent;
+    color: inherit;
+    font-size: 17px;
+    margin: 0 0 9px 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+    color: #191b1d;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3, .h3{
+    font-size: 23px;
+}
+
+h1, .h1, h2, .h2, h3, .h3{
+    margin-top: 18px;
+    margin-bottom: 9px;
+}
+
+.t3-copyright{
+    font-size: 12px;
+}
+
+.wrap{
+    width: auto;
+    clear: both;
+}
+
+.copyright {
+    padding: 20px 0;
+    border-top:  1px dotted #717173;
+    text-align: center;
+}
+
+.page_body{
+    margin-bottom: 3em;
+}
+
+.product__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.product{
+    border-radius: 7px;
+    border: solid 1px #e1e1e1;
+    background-color: #fff;
+    display: flex;
+    min-height: 410px;
+    overflow: hidden;
+}
+
+.product__container {
+    width: 100%;
+}
+
+.product__image {
+    width: 100%;
+    min-height: 120px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+img {
+    border-style: none;
+}
+
+.product__container > div {
+    margin: 1.5rem .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.product__title {
+    margin: 0;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 90%;
+    position: relative;
+    left: 14px;
+}
+
+.product__description {
+    display: block;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 300;
+    color: #6f6f6f;
+    }
+
+.row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+}
+
+.product__container {
+    position: relative;
+  }
+  
+  .product__watermark {
+    position: absolute;
+    bottom: 10px; /* Ajustar la distancia desde la parte inferior según sea necesario */
+    right: 10px; /* Ajustar la distancia desde la derecha según sea necesario */
+    opacity: 0.5;
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px; /* Ajusta el tamaño según sea necesario */
+  }
+  
+  
