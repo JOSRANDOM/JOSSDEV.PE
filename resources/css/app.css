@@ -168,5 +168,11 @@ a{
     margin-right: 0; /* Elimina el margen derecho del último icono */
 }
 
+.footer-social a i {
+    color: #8a2be2; /* Cambia el color de los iconos a un tono de morado más claro */
+}
+
+
+
   
   
