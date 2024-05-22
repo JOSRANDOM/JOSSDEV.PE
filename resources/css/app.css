@@ -24,9 +24,6 @@
 
 .t3-module{
     margin-top: 36px;
-}
-
-.t3-module{
     background: transparent;
     color: inherit;
     margin-bottom: 18px;
@@ -50,19 +47,10 @@
     padding-bottom: 5px;
 }
 
-img{
-    max-width: 100%;
-}
-
-img{
-    vertical-align: middle;
-}
-
 .small-logo {
     width: 100px;
     height: 100px;
 }
-
 
 .t3-footnav .t3.module ul{
     list-style: none;
@@ -126,10 +114,6 @@ a{
     margin-right: 10px;
 }
 
-ul li, ol li{
-    list-style: none;
-}
-
 .t3-footnav .t3-module .module-title{
     text-align: center;
     color: #555555;
@@ -138,34 +122,6 @@ ul li, ol li{
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
-}
-
-.module-title{
-    margin-bottom: 18px;
-}
-
-.module-title{
-    background: transparent;
-    color: inherit;
-    font-size: 17px;
-    margin: 0 0 9px 0;
-    padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Raleway', sans-serif;
-    color: #191b1d;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-h3, .h3{
-    font-size: 23px;
-}
-
-h1, .h1, h2, .h2, h3, .h3{
-    margin-top: 18px;
-    margin-bottom: 9px;
 }
 
 .t3-copyright{
@@ -183,88 +139,34 @@ h1, .h1, h2, .h2, h3, .h3{
     text-align: center;
 }
 
-.page_body{
-    margin-bottom: 3em;
+.footer-about {
+    position: relative; /* Establece el posicionamiento relativo para que los elementos absolutamente posicionados se posicionen relativos a este */
 }
 
-.product__list{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
-}
-
-.product{
-    border-radius: 7px;
-    border: solid 1px #e1e1e1;
-    background-color: #fff;
-    display: flex;
-    min-height: 410px;
-    overflow: hidden;
-}
-
-.product__container {
-    width: 100%;
-}
-
-.product__image {
-    width: 100%;
-    min-height: 120px;
-}
-
-
-img {
-    max-width: 100%;
-}
-
-
-img {
-    border-style: none;
-}
-
-.product__container > div {
-    margin: 1.5rem .5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 150px;
-}
-
-.product__title {
-    margin: 0;
-    font-size: 18px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    max-width: 90%;
-    position: relative;
-    left: 14px;
-}
-
-.product__description {
+.footer-about img {
+    width: 100px;
+    height: 100px;
     display: block;
-    font-size: 15px;
-    margin-top: 5px;
-    font-weight: 300;
-    color: #6f6f6f;
-    }
-
-.row {
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
+    margin: 0 auto 10px; /* Centra el logo horizontalmente y deja un margen inferior */
 }
 
-.product__container {
-    position: relative;
-  }
-  
-  .product__watermark {
-    position: absolute;
-    bottom: 10px; /* Ajustar la distancia desde la parte inferior según sea necesario */
-    right: 10px; /* Ajustar la distancia desde la derecha según sea necesario */
-    opacity: 0.5;
-    width: 50px; /* Ajusta el tamaño según sea necesario */
-    height: 50px; /* Ajusta el tamaño según sea necesario */
-  }
+.footer-about p {
+    color: #fff;
+    margin-bottom: 0; /* Elimina el margen inferior del párrafo para evitar espacios innecesarios */
+}
+
+.footer-social {
+    text-align: center; /* Centra los iconos horizontalmente */
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre los iconos */
+}
+
+.footer-social li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último icono */
+}
+
   
   

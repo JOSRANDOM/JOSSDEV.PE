@@ -43,40 +43,32 @@
         <!--FOOTER-->
         <footer id="t3-footer" class="wrap t3-footer">
             <div class="container">
-            <div class="t3-spotlight t3-footnav row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="t3-module module" id="Mod126">
-                    <div class="module-inner">
-                    <div class="module-ct">
-                        <div class="custom">
-                        <div class="footer-about">
-                            <img src="/img/logos/logo BM.png" alt="footer-logo" class="small-logo">
-                            <p>Buscamos la excelencia en todos nuestros desarrollos, nos adaptamos a tu presupuesto y
-                                 disfrutamos lo que hacemos.</p>
-                            <br>
-                            <ul class="footer-social">
-                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
-                            </ul>
-                        </div>
+                <div class="t3-spotlight t3-footnav row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="t3-module module" id="Mod126">
+                            <div class="module-inner">
+                                <div class="module-ct">
+                                    <div class="custom">
+                                        <div class="footer-about">
+                                            <img src="/img/logos/logo BM.png" alt="footer-logo" class="small-logo">
+                                            <p>Buscamos la excelencia en todos nuestros desarrollos, nos adaptamos a tu presupuesto y disfrutamos lo que hacemos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    </div>
                 </div>
-                </div>       
-            </div>
-            </div>
-            <section class="t3-copyright">
-            <div class="wrap">
-                <div class="container">
-                <div class="custom">
-                    <div class="copyright">
-                    Copyright 2024 JOSSDEV, Todos los Derechos Reservados.
-                </div>
+                <div class="copyright">
+                    <ul class="footer-social">
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                    </ul>
+                    <p>© Copyright 2024 JOSSDEV, Todos los Derechos Reservados.</p>
                 </div>
             </div>
-            </section>
-        </foote>
+        </footer>
+        
     </body>
 </html>
