@@ -181,8 +181,17 @@ a{
 }
 
 .tool-icon {
-    width: 100px; /* Puedes ajustar el tamaño según sea necesario */
-    margin: 10px;
+    width: 150px; /* Puedes ajustar el tamaño según sea necesario */
+    
+}
+
+#main {
+    position: relative;
+}
+
+#main .overlay .container,
+#main .overlay .row{
+    height: 100%;
 }
 
 #main .overlay{
@@ -194,4 +203,9 @@ a{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     z-index: 1;
+}
+
+#tarjetas img {
+    margin: auto;
+    width: 200px;
 }

@@ -20,7 +20,7 @@
         <header class="site-body min-w-96">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <img src="/img/logos/d-.png" alt="Logo de BANQUEA.pe" style="max-width: 100px; height: auto;">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Servicios</a>
@@ -38,7 +38,7 @@
                             <a class="nav-link" href="#">Portafolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre Nosotros</a>
+                            <a class="nav-link" href="/sobrenosotros">Sobre Nosotros</a>
                         </li>
                     </ul>
                     </div>
@@ -46,12 +46,12 @@
             </nav>
         </header>
 
-        <main class="bg-white mx-auto mt-2 text-black ">
+        <main class="bg-white mx-auto text-black ">
 
             <div>
-                <h2>
+                <!--<h2>
                      @yield('titulo')
-                </h2>
+                </h2>-->
                     @yield('contenido')
             </div>
 
@@ -62,7 +62,7 @@
         <footer id="t3-footer" class="wrap t3-footer">
             <div class="container">
                 <div class="t3-spotlight t3-footnav row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col text-center">
                         <div class="t3-module module" id="Mod126">
                             <div class="module-inner">
                                 <div class="module-ct">

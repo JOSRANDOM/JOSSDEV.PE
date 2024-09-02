@@ -3,7 +3,7 @@
 @section('contenido')
 <div id="main" class="">
     <div>
-        <img src="/img/bg-software.jpg" class="d-block w-100" />
+        <img src="/img/bg-software.jpg" class="img-fluid" alt="" />
     </div>
     <div class="overlay">
         <div class="container">
@@ -20,22 +20,36 @@
     </div>
 </div>
 
-<div class="container mt-5">
+<div class="container mt-2 mt-lg-5">
     <h2>Herramientas de Desarrollo</h2>
-    <div class="dev-tools-icons">
-        <img src="/img/tools/laravel.png" class="tool-icon" alt="Laravel">
-        <img src="/img/tools/flutter.png" class="tool-icon" alt="Flutter">
-        <img src="/img/tools/javascript.png" class="tool-icon" alt="JavaScript">
-        <img src="/img/tools/html.png" class="tool-icon" alt="html">
+    <div class="row mt-5 text-center">
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <img src="/img/tools/laravel.png" class="tool-icon" alt="Laravel">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <img src="/img/tools/flutter.png" class="tool-icon" alt="Flutter">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <img src="/img/tools/javascript.png" class="tool-icon" alt="JavaScript">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <img src="/img/tools/html.png" class="tool-icon" alt="html">
+        </div>
     </div>
 </div>
 
 <div class="container mt-5">
     <h2>Herramientas de Diseño</h2>
-    <div class="dev-tools-icons">
-        <img src="/img/tools/figma.svg.png" class="tool-icon" alt="Laravel">
-        <img src="/img/tools/ps.svg.png" class="tool-icon" alt="Flutter">
-        <img src="/img/tools/css.png" class="tool-icon" alt="css">
+    <div class="row mt-5 text-center">
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <img src="/img/tools/figma.svg.png" class="tool-icon" alt="Laravel">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <img src="/img/tools/ps.svg.png" class="tool-icon" alt="Flutter">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <img src="/img/tools/css.png" class="tool-icon" alt="css">
+        </div>
     </div>
 </div>
 
